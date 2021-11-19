@@ -1,0 +1,28 @@
+{
+  "build": {
+    "preview": {
+      "ios": {
+        "simulator": true
+      }
+    },
+    "release": {},
+    "release-stage": {
+      "ios": {
+        "releaseChannel": "stage"
+      }
+    },
+    "development": {
+      "ios": {
+        "enterpriseProvisioning": "adhoc",
+        "autoIncrement": true,
+        "image": "latest",
+        "developmentClient": true,
+        "distribution": "internal"
+      }
+    }
+  },
+  "cli": {
+    "version": ">= 0.35.0",
+    "requireCommit": true
+  }
+}
