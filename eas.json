@@ -2,13 +2,19 @@
   "build": {
     "preview": {
       "ios": {
-        "simulator": true
+        "simulator": true,
+        "cache": {
+          "key": "181121"
+        }
       }
     },
     "release": {},
     "release-stage": {
       "ios": {
-        "releaseChannel": "stage"
+        "releaseChannel": "stage",
+        "cache": {
+          "disabled": true
+        }
       }
     },
     "development": {
