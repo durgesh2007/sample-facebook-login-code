@@ -6,6 +6,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>New Branch Code...</Text>
+      <Text>New Branch continue updation in raised pr...</Text>
       <StatusBar style="auto" />
     </View>
   );
